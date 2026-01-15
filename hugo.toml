@@ -1,0 +1,28 @@
+baseURL = "https://antoniojose-tena.github.io/"
+languageCode = "es-es"
+title = "Antonio Tena | Software Architect & Technical Lead"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+[menu]
+  [[menu.main]]
+    name = "Casos"
+    url = "/casos/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Artículos"
+    url = "/articulos/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Sobre mí"
+    url = "/about/"
+    weight = 3
+
