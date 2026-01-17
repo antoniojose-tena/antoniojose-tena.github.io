@@ -32,6 +32,10 @@ Cuando me incorporé, el sistema se encontraba en un estado muy delicado:
 
 Cualquier cambio, por pequeño que fuera, generaba efectos colaterales inesperados.
 
+### Arquitectura inicial
+
+![Arquitectura inicial del sistema y dependencias críticas](arquitectura-inicial.png)
+
 ---
 
 ## Mi rol
