@@ -1,7 +1,8 @@
 ---
-title: "Estabilizar un sistema crítico en producción sin reescrituras"
+title: "Estabilizar un sistema crítico sin reescrituras (ASP.NET y SQL Server)"
+description: "Caso real de estabilización de una aplicación web industrial en producción, reduciendo caídas y riesgo sin reescrituras."
 date: 2026-01-15
-tags: ["arquitectura", "sistemas críticos", "legacy"]
+tags: ["arquitectura de software", "sistemas críticos", "legacy", "entornos industriales"]
 ---
 
 ## Contexto
