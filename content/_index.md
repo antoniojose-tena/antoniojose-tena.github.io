@@ -1,5 +1,6 @@
 ---
-title: "Antonio Tena"
+title: "Software Architect & Technical Lead especializado en sistemas críticos"
+description: "Arquitectura de software, estabilización de sistemas legacy y liderazgo técnico en entornos industriales y empresariales."
 ---
 
 ## Sistemas críticos que escalan equipos, no reuniones.
