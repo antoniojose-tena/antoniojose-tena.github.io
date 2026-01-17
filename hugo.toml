@@ -1,6 +1,7 @@
 baseURL = "https://antoniojose-tena.github.io/"
 languageCode = "es-es"
-title = "Antonio Tena | Software Architect & Technical Lead"
+title = "Antonio Tena | Software Architect & Technical Lead (.NET)"
+description = "Arquitectura de software, estabilización de sistemas críticos y liderazgo técnico en entornos industriales y empresariales."
 theme = "PaperMod"
 
 [params]
