@@ -4,26 +4,90 @@ title = "Antonio Tena | Software Architect & Technical Lead (.NET)"
 description = "Arquitectura de software, estabilización de sistemas críticos y liderazgo técnico en entornos industriales y empresariales."
 theme = "PaperMod"
 
+defaultContentLanguage = "es"
+defaultContentLanguageInSubdir = true
+
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10
+
+[languages]
+
+# ======================
+# Español (por defecto)
+# ======================
+[languages.es]
+languageName = "Es"
+weight = 1
+contentDir = "content/es"
+
+[languages.es.params]
+description = "Arquitectura de software, estabilización de sistemas críticos y liderazgo técnico en entornos industriales y empresariales."
+
+[[languages.es.menu.main]]
+name = "Inicio"
+url = "/es/"
+weight = 1
+
+[[languages.es.menu.main]]
+name = "Casos"
+url = "/es/casos/"
+weight = 2
+
+#[[languages.es.menu.main]]
+#name = "Artículos"
+#url = "/es/articulos/"
+#weight = 3
+
+[[languages.es.menu.main]]
+name = "Sobre mí"
+url = "/es/sobre-mi/"
+weight = 4
+
+
+# ======================
+# Inglés
+# ======================
+[languages.en]
+languageName = "En"
+weight = 2
+contentDir = "content/en"
+
+[languages.en.params]
+description = "Software architecture, critical system stabilization, and technical leadership in industrial and enterprise environments."
+
+[[languages.en.menu.main]]
+name = "Home"
+url = "/en/"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Cases"
+url = "/en/cases/"
+weight = 2
+
+#[[languages.en.menu.main]]
+#name = "Articles"
+#url = "/en/articles/"
+#weight = 3
+
+[[languages.en.menu.main]]
+name = "About"
+url = "/en/about/"
+weight = 4
+
+
+# ======================
+# PaperMod settings
+# ======================
 [params]
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowCodeCopyButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+disableThemeToggle = false
 
-[menu]
-  [[menu.main]]
-    name = "Casos"
-    url = "/casos/"
-    weight = 1
-
-  [[menu.main]]
-    name = "Artículos"
-    url = "/articulos/"
-    weight = 2
-
-  [[menu.main]]
-    name = "Sobre mí"
-    url = "/about/"
-    weight = 3
-
+[params.assets]
+disableFingerprinting = true
