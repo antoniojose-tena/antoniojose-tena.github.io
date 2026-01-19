@@ -1,5 +1,5 @@
 ---
-title: "Software Architect & Technical Lead specialized in critical systems"
+title: "Antonio Tena | Software Architect & Technical Lead for Critical Systems"
 description: "Software architecture, legacy system stabilization, and technical leadership in industrial and enterprise environments."
 ---
 
