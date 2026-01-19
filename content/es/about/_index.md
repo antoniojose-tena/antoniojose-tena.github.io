@@ -1,5 +1,7 @@
 ---
 title: "Sobre mí"
+#slug: "sobre-mi"
+#translationKey: "about"
 ---
 
 Muchos sistemas dejan de escalar no por límites técnicos, sino porque cada cambio exige más coordinación, más reuniones y más dependencias entre equipos.

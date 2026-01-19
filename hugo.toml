@@ -32,17 +32,17 @@ weight = 1
 
 [[languages.es.menu.main]]
 name = "Casos"
-url = "/es/casos/"
+url = "/es/cases/"
 weight = 2
 
 #[[languages.es.menu.main]]
 #name = "Artículos"
-#url = "/es/articulos/"
+#url = "/es/articles/"
 #weight = 3
 
 [[languages.es.menu.main]]
 name = "Sobre mí"
-url = "/es/sobre-mi/"
+url = "/es/about/"
 weight = 4
 
 
@@ -51,7 +51,7 @@ weight = 4
 # ======================
 [languages.en]
 languageName = "En"
-weight = 2
+weight = 1
 contentDir = "content/en"
 
 [languages.en.params]

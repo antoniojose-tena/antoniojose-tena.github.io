@@ -1,15 +1,17 @@
 ---
-title: "Sobre mí"
+title: "About me"
+#slug: "about"
+#translationKey: "about"
 ---
 
-Muchos sistemas dejan de escalar no por límites técnicos, sino porque cada cambio exige más coordinación, más reuniones y más dependencias entre equipos.
+Many systems stop scaling not because of technical limits, but because every change requires more coordination, more meetings, and more dependencies between teams.
 
-Soy **Software Architect y Technical Lead**, especializado en diseñar sistemas **estables, escalables y mantenibles** que permiten a los equipos avanzar sin fricción innecesaria. Combino responsabilidad técnica y liderazgo para tomar decisiones que reducen riesgo, deuda técnica y complejidad operativa.
+I am a **Software Architect and Technical Lead**, specialized in designing **stable, scalable, and maintainable systems** that allow teams to move forward without unnecessary friction. I combine technical responsibility with leadership to make decisions that reduce risk, technical debt, and operational complexity.
 
-A lo largo de más de **20 años de experiencia**, he diseñado, desarrollado y liderado soluciones software críticas en entornos **empresariales e industriales** (automoción, automatización industrial, energía, salud, certificación y medioambiente), donde la **fiabilidad, la seguridad y la estabilidad** no son opcionales.
+Over more than **20 years of experience**, I have designed, developed, and led critical software solutions in **enterprise and industrial environments** (automotive, industrial automation, energy, health, certification, and environmental sectors), where **reliability, security, and stability** are not optional.
 
-He asumido roles de referencia técnica, liderando equipos, guiando decisiones de arquitectura y estabilizando plataformas complejas. Disfruto transformando proyectos desafiantes en soluciones sostenibles, optimizando procesos y permitiendo que los equipos se centren en aportar valor real.
+I have taken on technical reference roles, leading teams, guiding architectural decisions, and stabilizing complex platforms. I enjoy turning challenging projects into sustainable solutions, optimizing processes, and enabling teams to focus on delivering real value.
 
-Complemento mi experiencia con formación en **Inteligencia Artificial** y uso práctico de **Python** para integrar la IA como herramienta de soporte y productividad en el desarrollo de software.
+I complement my experience with training in **Artificial Intelligence** and hands-on use of **Python** to integrate AI as a support and productivity tool in software development.
 
-Siempre abierto a oportunidades donde pueda aportar **liderazgo técnico, arquitectura sólida y desarrollo de software de alta calidad**.
+Always open to opportunities where I can contribute **technical leadership, solid architecture, and high-quality software development**.
