@@ -32,17 +32,17 @@ weight = 1
 
 [[languages.es.menu.main]]
 name = "Casos"
-url = "/es/cases/"
+url = "/es/casos/"
 weight = 2
 
 #[[languages.es.menu.main]]
 #name = "Artículos"
-#url = "/es/articles/"
+#url = "/es/articulos/"
 #weight = 3
 
 [[languages.es.menu.main]]
 name = "Sobre mí"
-url = "/es/about/"
+url = "/es/sobre-mi/"
 weight = 4
 
 

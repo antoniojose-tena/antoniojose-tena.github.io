@@ -33,4 +33,4 @@ I design and lead **stable, scalable, and maintainable software systems** in ind
 
 ---
 
-👉 **[View real case studies](/en/casos/)**
+👉 **[View real case studies](/en/cases/)**

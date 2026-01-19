@@ -1,7 +1,5 @@
 ---
 title: "About me"
-#slug: "about"
-#translationKey: "about"
 ---
 
 Many systems stop scaling not because of technical limits, but because every change requires more coordination, more meetings, and more dependencies between teams.
