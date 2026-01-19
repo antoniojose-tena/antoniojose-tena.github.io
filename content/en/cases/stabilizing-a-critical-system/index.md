@@ -1,110 +1,110 @@
 ---
-title: "Estabilizar un sistema crítico sin reescrituras (ASP.NET y SQL Server)"
-description: "Caso real de estabilización de una aplicación web industrial en producción, reduciendo caídas y riesgo sin reescrituras."
+title: "Stabilizing a Critical System Without a Rewrite (ASP.NET & SQL Server)"
+description: "Real-world case study on stabilizing a production industrial web application, reducing outages and delivery risk without a full rewrite."
 date: 2026-01-15
-tags: ["arquitectura de software", "sistemas críticos", "legacy", "entornos industriales"]
+tags: ["software architecture", "critical systems", "legacy", "industrial environments"]
 ---
 
-## Contexto
+## Context
 
-Aplicación web industrial en producción, utilizada por técnicos de campo para registrar inspecciones reglamentarias en instalaciones sujetas a normativa.
+A production industrial web application used by field technicians to register regulated inspections in compliance-driven environments.
 
-El sistema era la pieza central del proceso operativo:
-- registro completo de inspecciones
-- trazabilidad de cada instalación y equipo
-- emisión de certificaciones oficiales cuando se cumplía la regulación
+The system was a central part of the operational process:
+- full inspection recording
+- traceability of installations and equipment
+- issuance of official certifications when regulatory requirements were met
 
-La disponibilidad y fiabilidad del sistema eran críticas para la operación diaria y el negocio.
-
----
-
-## Situación inicial
-
-Cuando me incorporé, el sistema se encontraba en un estado muy delicado:
-
-- Caídas frecuentes y aleatorias en producción
-- Reinicios constantes que dejaban el sistema fuera de servicio
-- Técnicos obligados a registrar inspecciones en papel
-- Malestar generalizado entre usuarios finales
-- Impacto económico directo en cada parada
-- Despliegues frágiles, con alto riesgo de romper funcionalidades existentes
-- Ausencia de documentación técnica y de procesos claros
-- Dependencia crítica de conocimiento externo ya no disponible internamente
-
-Cualquier cambio, por pequeño que fuera, generaba efectos colaterales inesperados.
-
-### Arquitectura inicial
-
-![Arquitectura inicial del sistema y dependencias críticas](arquitectura-inicial.png)
+Availability and reliability were critical for both daily operations and the business.
 
 ---
 
-## Mi rol
+## Initial Situation
 
-Asumí el rol de responsable técnico principal del sistema:
+When I joined the project, the system was in a fragile and unstable state:
 
-- Toma de decisiones técnicas críticas
-- Responsabilidad sobre estabilidad, despliegues y continuidad del servicio
-- Referente técnico en un entorno de alta presión de negocio
+- Frequent and seemingly random production outages
+- Recurrent application restarts causing service downtime
+- Field technicians forced to fall back to paper-based inspections
+- Widespread user frustration
+- Direct financial impact during each outage
+- Fragile deployments with a high risk of breaking existing functionality
+- Lack of technical documentation and clearly defined processes
+- Critical dependency on external knowledge no longer available internally
 
----
+Even small changes caused unexpected side effects.
 
-## Enfoque inicial (antes de tocar código)
+### Initial Architecture
 
-Antes de introducir cambios, el foco fue entender y ordenar:
-
-- Análisis profundo del estado real del sistema
-- Identificación de dependencias críticas y flujos principales
-- Documentación de arquitectura, procesos y despliegues inexistentes o difusos
-- Priorización estricta orientada a negocio
-
-La decisión fue clara:  
-**la estabilidad era prioritaria frente a cualquier nueva funcionalidad.**
+![Initial system architecture and critical dependencies](initial-architecture.png)
 
 ---
 
-## Decisiones clave
+## My Role
 
-Se tomó una decisión consciente y sostenida en el tiempo:
+I assumed the role of primary technical owner of the system:
 
-- No añadir nuevas funcionalidades hasta estabilizar el sistema
-
-Aunque existía presión para seguir desarrollando features, se priorizó:
-- reducir incidentes
-- recuperar la confianza en el sistema
-- evitar seguir construyendo sobre una base inestable
+- Making critical technical decisions
+- Taking responsibility for stability, deployments, and service continuity
+- Acting as the technical reference in a high-pressure business environment
 
 ---
 
-## Acciones técnicas
+## Initial Approach (Before Touching the Code)
 
-- Definición y documentación de un proceso de despliegue claro y reproducible
-- Implantación de planes de despliegue más seguros
-- Revisiones de código orientadas a evitar regresiones
-- Mejora de los flujos de entrega para eliminar fallos recurrentes
-- Reducción progresiva de la dependencia externa mediante extracción de conocimiento y comunicación controlada
-- Análisis y optimización de la capa de datos, identificando consultas críticas y ajustando esquema e índices para reducir bloqueos y comportamientos inestables en producción.
+Before introducing any changes, the priority was to understand and bring order to the system:
 
----
+- In-depth analysis of the system’s real state
+- Identification of critical dependencies and main operational flows
+- Documentation of architecture, processes, and deployment practices that were missing or unclear
+- Strict prioritization driven by business impact
 
-## Resultado
-
-- Eliminación de las caídas constantes en producción
-- Despliegues estables y predecibles
-- Recuperación de la operativa normal de los técnicos de campo
-- Reducción del riesgo en cambios y entregas
-- Recuperación de la confianza del negocio en el sistema
-
-Se estableció una base técnica sólida que permitió, posteriormente, volver a evolucionar el producto con menor riesgo.
+One decision guided all actions:  
+**stability had priority over any new functionality.**
 
 ---
 
-## Aprendizajes
+## Key Decisions
 
-- La estabilidad no es una mejora: es un prerrequisito
-- Muchas veces, la mejor decisión técnica es **no hacer más**, sino hacer menos y mejor
-- Estabilizar un sistema es tan valioso como construir uno nuevo
-- La arquitectura madura prioriza continuidad, no brillantez
+A conscious and sustained decision was made:
 
-Este tipo de trabajo rara vez es visible, pero suele marcar la diferencia
-entre un sistema que sobrevive y uno en el que el negocio puede confiar.
+- No new features until the system was stable
+
+Despite pressure to continue delivering new functionality, the focus remained on:
+- reducing incidents
+- restoring trust in the system
+- avoiding further complexity on an unstable foundation
+
+---
+
+## Technical Actions
+
+- Definition and documentation of a clear, reproducible deployment process
+- Introduction of safer deployment strategies
+- Code reviews focused on preventing regressions
+- Improvements to delivery flows to eliminate recurring failures
+- Gradual reduction of external dependency through knowledge extraction and controlled communication
+- Analysis and optimization of the data layer, identifying critical queries and adjusting schema and indexes to reduce blocking and unstable behavior in production
+
+---
+
+## Outcome
+
+- Elimination of recurring production outages
+- Stable and predictable deployments
+- Restoration of normal operations for field technicians
+- Reduced risk when introducing changes
+- Recovered business confidence in the system
+
+A solid technical foundation was established, enabling the product to evolve again with significantly lower risk.
+
+---
+
+## Key Learnings
+
+- Stability is not an improvement — it is a prerequisite
+- Often, the best technical decision is **not to do more**, but to do less and do it better
+- Stabilizing a system can be as valuable as building a new one
+- Mature architecture prioritizes continuity over cleverness
+
+This type of work is rarely visible, but it often makes the difference  
+between a system that merely survives and one the business can truly rely on.
