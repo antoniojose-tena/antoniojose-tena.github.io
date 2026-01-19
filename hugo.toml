@@ -1,6 +1,6 @@
 baseURL = "https://antoniojose-tena.github.io/"
 languageCode = "es-es"
-title = "Antonio Tena | Software Architect & Technical Lead (.NET)"
+#title = "Antonio Tena | Software Architect & Technical Lead (.NET)"
 description = "Arquitectura de software, estabilización de sistemas críticos y liderazgo técnico en entornos industriales y empresariales."
 theme = "PaperMod"
 
@@ -21,6 +21,7 @@ pagerSize = 10
 languageName = "Es"
 weight = 1
 contentDir = "content/es"
+title = "Antonio Tena | Software Architect & Technical Lead especializado en sistemas críticos"
 
 [languages.es.params]
 description = "Arquitectura de software, estabilización de sistemas críticos y liderazgo técnico en entornos industriales y empresariales."
@@ -53,6 +54,7 @@ weight = 4
 languageName = "En"
 weight = 1
 contentDir = "content/en"
+title = "Antonio Tena | Software Architect & Technical Lead for Critical Systems"
 
 [languages.en.params]
 description = "Software architecture, critical system stabilization, and technical leadership in industrial and enterprise environments."
